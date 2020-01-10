@@ -3,7 +3,7 @@
 
 Name:             maven-jarsigner-plugin
 Version:          1.2
-Release:          8%{?dist}
+Release:          9%{?dist}
 Summary:          Signs or verifies a project artifact and attachments using jarsigner
 License:          ASL 2.0
 Group:            Development/Libraries
@@ -56,6 +56,9 @@ This package contains the API documentation for %{name}.
 %doc LICENSE NOTICE
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.2-9
+- Mass rebuild 2013-12-27
+
 * Thu Aug 22 2013 Michal Srb <msrb@redhat.com> - 1.2-8
 - Migrate away from mvn-rpmbuild (Resolves: #997477)
 
